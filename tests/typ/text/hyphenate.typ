@@ -49,3 +49,15 @@ It's a #emph[Tree]beard.
 #set page(width: 60pt)
 #set text(hyphenate: true)
 #h(6pt) networks, the rest.
+
+---
+// Test that smartquotes don't break hyphenation
+#set page(width: 1.2cm, height: auto)
+#set text(lang: "de")
+#set par(justify: true)
+
+"Beitrag"
+"Beitrag"
+
+Beitrag
+Beitrag
